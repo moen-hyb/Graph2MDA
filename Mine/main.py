@@ -60,9 +60,7 @@ def main():
                 test_idx = all_idx[num_train:(num_train + num_test)]
 
                 Y_train = labels[train_idx]
-
                 Y_test = labels[test_idx]
-
                 X_train = embeddings[train_idx]
                 X_test = embeddings[test_idx]
 
